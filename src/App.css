@@ -1,0 +1,103 @@
+.App {
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    background-color: black;
+}
+
+
+.carousel {
+    margin: auto;
+}
+
+.carousel img{
+    width: 100%;
+    margin: auto;
+}
+
+.carouselName {
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    line-height: 50px;
+}
+
+.dot {
+    margin-bottom: 70px;
+}
+
+.movieList {
+    background-color: #121212;
+    color: orange;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.movieList h3 {
+    color: white;
+    font-size: 16px;
+}
+
+.movieList img {
+    float: left;
+    margin-right: 20px;
+    height: 100px;
+}
+
+
+.moviePage {
+    margin: auto;
+}
+
+.radioGroup {
+    margin-top: 10px;
+}
+
+.movieImg {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    /* border: 1px solid #ccc; */
+    box-shadow: 0 0 6px #ccc;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.movieImg img {
+    width: 230px;
+    height: 340px;
+}
+
+.movieImg:hover {
+    transform: rotate(1deg) scale(1.03);
+    opacity: 0.9;
+}
+
+.movieImg div {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:600px){
+    .radioGroup {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.listPic {
+    height: 120px;
+}
+
+.listPic div {
+    float: left;
+}
+
+.listPic img {
+    height: 100%;
+}
+
